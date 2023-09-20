@@ -8,7 +8,7 @@ const {
     deleteTaskById,
 } = require("../controllers/task.controller")
 
-route.post('/task', createTask); // 
+route.post('/task', createTask); 
 route.get('/tasks', getAllTasks);
 route.get('/task/:id', getTaskById);
 route.patch('/task/:id', updateTaskById);
